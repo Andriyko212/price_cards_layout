@@ -18,33 +18,8 @@
     line-height: 25px;
     transform: rotate(45deg);
   }
-
-  &_green {
-    .price-card {
-      &__price,
-      &__order-btn {
-        background-color: #5bb189;
-      }
-    }
-  }
-
   &_blue {
     position: relative;
-    .price-card {
-      &__price,
-      &__order-btn {
-        background-color: #3a6ba5;
-      }
-    }
-  }
-
-  &_orange {
-    .price-card {
-      &__price,
-      &__order-btn {
-        background-color: #ec632a;
-      }
-    }
   }
 
   &__title {
@@ -69,6 +44,18 @@
     font-size: 55px;
     line-height: 105px;
     font-weight: 700;
+
+    &_green {
+      background-color: #5bb189;
+    }
+
+    &_blue {
+      background-color: #3a6ba5;
+    }
+
+    &_orange {
+      background-color: #ec632a;
+    }
   }
 
   &__text-base-styles {
@@ -88,7 +75,7 @@
     line-height: 50px;
 
     &:nth-child(odd) {
-      background-color: #2a3438;
+      background-color: #2a343880;
     }
 
     &__check {
@@ -120,5 +107,17 @@
     color: $basic-font-color;
     text-transform: uppercase;
     font-size: 14px;
+
+    &_green {
+      background-color: #5bb189;
+    }
+
+    &_blue {
+      background-color: #3a6ba5;
+    }
+
+    &_orange {
+      background-color: #ec632a;
+    }
   }
 }
