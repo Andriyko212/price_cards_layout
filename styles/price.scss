@@ -1,6 +1,6 @@
 .price-card {
   overflow: hidden;
-  width: 380px;
+  flex-basis: 380px;
   height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px #00000016;
@@ -46,15 +46,15 @@
     font-weight: 700;
 
     &_green {
-      background-color: #5bb189;
+      background-color: $green-color;
     }
 
     &_blue {
-      background-color: #3a6ba5;
+      background-color: $blue-color;
     }
 
     &_orange {
-      background-color: #ec632a;
+      background-color: $orange-color;
     }
   }
 
@@ -81,20 +81,20 @@
   }
 
   &__option-check {
-    width: 16px;
+    width: 15px;
     height: 13px;
     margin: 0 22px;
 
     &_green {
-      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+      background-image: url(../icons/green-checkmark.svg);
     }
 
     &_blue {
-      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+      background-image: url(../icons/blue-checkmark.svg);
     }
 
     &_orange {
-      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+      background-image: url(../icons/orange-checkmark.svg);
     }
   }
 
@@ -110,15 +110,15 @@
     font-size: 14px;
 
     &_green {
-      background-color: #5bb189;
+      background-color: $green-color;
     }
 
     &_blue {
-      background-color: #3a6ba5;
+      background-color: $blue-color;
     }
 
     &_orange {
-      background-color: #ec632a;
+      background-color: $orange-color;
     }
   }
 }
