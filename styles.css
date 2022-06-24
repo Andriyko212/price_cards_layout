@@ -1,14 +1,9 @@
 .price-card {
   overflow: hidden;
-  width: 380px;
+  min-width: 380px;
   height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.0862745098);
-}
-@media (max-width: 1176px) {
-  .price-card {
-    min-width: 380px;
-  }
 }
 .price-card__popular-tag {
   width: 147px;
@@ -78,13 +73,13 @@
   margin: 0 22px;
 }
 .price-card__option-check_green {
-  background-image: url(../icons/green-icon.svg);
+  background-image: url(../icons/green-checkmark.svg);
 }
 .price-card__option-check_blue {
-  background-image: url(../icons/blue-icon.svg);
+  background-image: url(../icons/blue-checkmark.svg);
 }
 .price-card__option-check_orange {
-  background-image: url(../icons/orange-icon.svg);
+  background-image: url(../icons/orange-checkmark.svg);
 }
 .price-card__order-btn {
   width: 154px;
