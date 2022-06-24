@@ -1,0 +1,5 @@
+@mixin for-medium-screen {
+  @media (max-width: 1176px) {
+    @content;
+  }
+}
