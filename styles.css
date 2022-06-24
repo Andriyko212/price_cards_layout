@@ -36,13 +36,10 @@
 }
 .price .price-card__price {
   height: 105px;
-  display: flex;
-}
-.price .price-card__price__text {
+  text-align: center;
   font-size: 55px;
-  line-height: 67.05px;
+  line-height: 105px;
   font-weight: 700;
-  margin: auto;
 }
 .price .price-card__price_green {
   background-color: #5bb189;
