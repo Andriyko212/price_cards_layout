@@ -1,0 +1,29 @@
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+  color: $basic-font-color;
+  background-color: $background;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+span,
+img,
+i {
+  display: inline-block;
+}
