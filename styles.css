@@ -1,6 +1,6 @@
 .price-card {
   overflow: hidden;
-  min-width: 380px;
+  flex-basis: 380px;
   height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.0862745098);
@@ -143,7 +143,7 @@ body {
 }
 @media (max-width: 1176px) {
   body {
-    margin: 60px;
+    margin: 60px 40px;
   }
 }
 
