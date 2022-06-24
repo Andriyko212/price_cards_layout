@@ -73,13 +73,13 @@
   margin: 0 22px;
 }
 .price-card__option-check_green {
-  background-image: url(../icons/green-checkmark.svg);
+  background-image: url(./icons/green-checkmark.svg);
 }
 .price-card__option-check_blue {
-  background-image: url(../icons/blue-checkmark.svg);
+  background-image: url(./icons/blue-checkmark.svg);
 }
 .price-card__option-check_orange {
-  background-image: url(../icons/orange-checkmark.svg);
+  background-image: url(./icons/orange-checkmark.svg);
 }
 .price-card__order-btn {
   width: 154px;
