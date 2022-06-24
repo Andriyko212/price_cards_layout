@@ -1,6 +1,6 @@
 # 🎨Price-cards layout project
 
-  <img  src="layout-image.png">
+  <img  src="layout-image.png" width="1000px">
 
 **📏Layout suppors correctly dekstop devices only (1400px screen-width)**
 
