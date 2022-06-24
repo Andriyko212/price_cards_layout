@@ -65,7 +65,7 @@
   line-height: 50px;
 }
 .price-card__option:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5019607843);
+  background-color: #2a3438;
 }
 .price-card__option__check {
   width: 16px;
