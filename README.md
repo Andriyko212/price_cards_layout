@@ -1,6 +1,6 @@
 # 🎨Price-cards layout project
 
-**No-adaptive site that illustraites price-cards block**
+**📏Layout suppors correctly dekstop devices only (1400px screen-width)**
 
 ### ⚙️Used technologies:
 
