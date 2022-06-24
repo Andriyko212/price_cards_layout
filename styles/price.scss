@@ -1,126 +1,124 @@
-.price {
-  .price-card {
-    overflow: hidden;
-    width: 380px;
-    height: 770px;
-    background-color: #334247;
-    box-shadow: 0px 6px 6px 0px #00000016;
+.price-card {
+  overflow: hidden;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px 0px #00000016;
 
-    &__popular-tag {
-      width: 147px;
-      height: 25px;
-      position: absolute;
-      top: 31px;
-      right: -31px;
-      text-transform: uppercase;
-      background-color: #dc3f45;
-      font-size: 14px;
-      text-align: center;
-      line-height: 25px;
-      transform: rotate(45deg);
-    }
+  &__popular-tag {
+    width: 147px;
+    height: 25px;
+    position: absolute;
+    top: 31px;
+    right: -31px;
+    text-transform: uppercase;
+    background-color: #dc3f45;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    transform: rotate(45deg);
+  }
 
-    &_green {
-      .price-card {
-        &__price,
-        &__order-btn {
-          background-color: #5bb189;
-        }
+  &_green {
+    .price-card {
+      &__price,
+      &__order-btn {
+        background-color: #5bb189;
       }
     }
+  }
 
-    &_blue {
-      position: relative;
-      .price-card {
-        &__price,
-        &__order-btn {
-          background-color: #3a6ba5;
-        }
+  &_blue {
+    position: relative;
+    .price-card {
+      &__price,
+      &__order-btn {
+        background-color: #3a6ba5;
       }
     }
+  }
 
-    &_orange {
-      .price-card {
-        &__price,
-        &__order-btn {
-          background-color: #ec632a;
-        }
+  &_orange {
+    .price-card {
+      &__price,
+      &__order-btn {
+        background-color: #ec632a;
       }
     }
+  }
 
-    &__title {
-      text-align: center;
-      margin: 33px 0;
+  &__title {
+    text-align: center;
+    margin: 33px 0;
 
-      &__prime-text {
-        font-size: 35px;
-        line-height: 43px;
-        font-weight: 700;
-      }
-
-      &__sub-text {
-        font-size: 20px;
-        line-height: 24px;
-      }
-    }
-
-    &__price {
-      height: 105px;
-      text-align: center;
-      font-size: 55px;
-      line-height: 105px;
+    &__prime-text {
+      font-size: 35px;
+      line-height: 43px;
       font-weight: 700;
     }
 
-    &__text-base-styles {
-      font-size: 15px;
-      line-height: 18.29px;
-      font-weight: 300;
+    &__sub-text {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  &__price {
+    height: 105px;
+    text-align: center;
+    font-size: 55px;
+    line-height: 105px;
+    font-weight: 700;
+  }
+
+  &__text-base-styles {
+    font-size: 15px;
+    line-height: 18.29px;
+    font-weight: 300;
+  }
+
+  &__description {
+    text-align: center;
+    margin: 40px 26px;
+  }
+
+  &__option {
+    list-style-type: none;
+    height: 50px;
+    line-height: 50px;
+
+    &:nth-child(odd) {
+      background-color: #2a343880;
     }
 
-    &__description {
-      text-align: center;
-      margin: 40px 26px;
-    }
+    &__check {
+      width: 16px;
+      height: 13px;
+      margin: 0 22px;
 
-    &__option {
-      list-style-type: none;
-      height: 50px;
-      line-height: 50px;
-
-      &:nth-child(odd) {
-        background-color: #2a343880;
+      &_green {
+        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
       }
 
-      &__check {
-        width: 16px;
-        height: 13px;
-        margin: 0 22px;
+      &_blue {
+        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+      }
 
-        &_green {
-          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-        }
-
-        &_blue {
-          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-        }
-
-        &_orange {
-          background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-        }
+      &_orange {
+        background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
       }
     }
+  }
 
-    &__order-btn {
-      width: 154px;
-      height: 40px;
-      display: block;
-      margin: 39px auto 40px;
-      border: none;
-      border-radius: 20px;
-      color: $basic-font-color;
-      text-transform: uppercase;
-      font-size: 14px;
-    }
+  &__order-btn {
+    width: 154px;
+    height: 40px;
+    display: block;
+    margin: 39px auto 40px;
+    border: none;
+    border-radius: 20px;
+    color: $basic-font-color;
+    text-transform: uppercase;
+    font-size: 14px;
   }
 }
