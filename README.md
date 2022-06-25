@@ -3,7 +3,7 @@
   <img  src="./layout-images/layout-image.jpg"  width="1000">
 
 
-**📏Layout suppors correctly dekstop version only (1400px screen-width)**
+**📏Layout suppors correctly dekstop version only, but still being adaptive**
 
 ### ⚙️Used technologies:
 
