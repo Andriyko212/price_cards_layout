@@ -2,7 +2,7 @@
 
   <img  src="./layout-images/layout-dekstop.jpg"  width="1000">
 
-**📏Layout suppors correctly dekstop version only, but still being adaptive**
+**📏Layout is adaptive and supports correctly devices from 320px screen-width**
 
 ### ⚙️Used technologies:
 
@@ -10,6 +10,7 @@
 - CSS3
 - Flexbox
 - SASS preprocessor
+- Mobile-first methodology
 - BEM methodology
 
 Page available via **[link](https://andrii618.github.io/price-cards_layout/)** 👈🏻
