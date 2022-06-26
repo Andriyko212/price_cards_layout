@@ -2,7 +2,7 @@
 
   <img  src="./layout-images/layout-dekstop.jpg"  width="1000">
 
-**📏Layout suppors correctly dekstop version only, but still being adaptive**
+**📏Layout is adaptive and supports correctly devices from 320px screen-width**
 
 ### ⚙️Used technologies:
 
