@@ -1,9 +1,13 @@
 .price-card {
   overflow: hidden;
   flex-basis: 380px;
-  height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.0862745098);
+}
+@media (min-width: 1176px) {
+  .price-card {
+    height: 770px;
+  }
 }
 .price-card__popular-tag {
   width: 147px;
@@ -134,6 +138,7 @@ html {
 }
 
 body {
+  padding: 60px 20px;
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
@@ -142,9 +147,9 @@ body {
   gap: 18px;
   overflow-x: hidden;
 }
-@media (max-width: 1176px) {
+@media (min-width: 1176px) {
   body {
-    margin: 60px 40px;
+    padding: 0;
   }
 }
 
