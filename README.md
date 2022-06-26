@@ -10,7 +10,6 @@
 - CSS3
 - Flexbox
 - SASS preprocessor
-- Mobile-first methodology
 - BEM methodology
 
 Page available via **[link](https://andrii618.github.io/price-cards_layout/)** 👈🏻
