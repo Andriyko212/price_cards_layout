@@ -1,9 +1,11 @@
 .price-card {
   overflow: hidden;
   flex-basis: 380px;
-  height: 770px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px #00000016;
+  @include for-large-screen {
+    height: 770px;
+  }
 
   &__popular-tag {
     width: 147px;
