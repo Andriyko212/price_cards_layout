@@ -1,6 +1,6 @@
 .price-card {
-  overflow: hidden;
   flex-basis: 380px;
+  overflow: hidden;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.0862745098);
 }
@@ -9,42 +9,44 @@
     height: 770px;
   }
 }
-.price-card__popular-tag {
-  width: 147px;
-  height: 25px;
-  position: absolute;
-  top: 31px;
-  right: -31px;
-  text-transform: uppercase;
-  background-color: #dc3f45;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 25px;
-  text-align: center;
-  transform: rotate(45deg);
-}
 .price-card_blue {
   position: relative;
 }
-.price-card__title {
+.price-card__popular-tag {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 31px;
+  right: -31px;
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
   text-align: center;
+}
+.price-card__popular-text {
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.price-card__title {
   margin: 33px 0;
+  text-align: center;
 }
 .price-card__prime-text {
-  font-size: 35px;
   line-height: 43px;
+  font-size: 35px;
   font-weight: 700;
 }
 .price-card__sub-text {
-  font-size: 20px;
   line-height: 24px;
+  font-size: 20px;
 }
 .price-card__price {
   height: 105px;
-  text-align: center;
-  font-size: 55px;
   line-height: 105px;
+  font-size: 55px;
   font-weight: 700;
+  text-align: center;
 }
 .price-card__price_green {
   background-color: #5bb189;
@@ -56,26 +58,26 @@
   background-color: #ec632a;
 }
 .price-card__list-styles, .price-card__description {
-  font-size: 15px;
   line-height: 18px;
+  font-size: 15px;
   font-weight: 300;
 }
 .price-card__description {
-  text-align: center;
   margin: 40px 26px;
+  text-align: center;
 }
 .price-card__option {
-  list-style-type: none;
   height: 50px;
   line-height: 50px;
+  list-style-type: none;
 }
-.price-card__option:nth-child(odd) {
+.price-card__option_dark {
   background-color: rgba(42, 52, 56, 0.5019607843);
 }
 .price-card__option-check {
+  margin: 0 22px;
   width: 15px;
   height: 13px;
-  margin: 0 22px;
 }
 .price-card__option-check_green {
   background-image: url(./icons/green-checkmark.svg);
@@ -87,15 +89,15 @@
   background-image: url(./icons/orange-checkmark.svg);
 }
 .price-card__order-btn {
-  width: 154px;
-  height: 40px;
   display: block;
   margin: 39px auto 40px;
+  width: 154px;
+  height: 40px;
   border: none;
   border-radius: 20px;
   color: #fff;
-  text-transform: uppercase;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .price-card__order-btn_green {
   background-color: #5bb189;
@@ -119,9 +121,9 @@ h5,
 h6,
 p,
 ul {
-  font-weight: 400;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  font-weight: 400;
 }
 
 span,
@@ -131,20 +133,20 @@ i {
 }
 
 html {
+  background-color: #141b1c;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #141b1c;
 }
 
 body {
-  padding: 60px 20px;
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
   justify-content: center;
   align-items: center;
   gap: 18px;
+  padding: 60px 20px;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 @media (min-width: 1176px) {
