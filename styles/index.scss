@@ -14,9 +14,9 @@ h5,
 h6,
 p,
 ul {
-  font-weight: 400;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  font-weight: 400;
 }
 
 span,
@@ -26,20 +26,20 @@ i {
 }
 
 html {
+  background-color: $background;
   font-family: 'Montserrat', sans-serif;
   font-size: $base-font-size;
   color: $basic-font-color;
-  background-color: $background;
 }
 
 body {
-  padding: 60px 20px;
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
   justify-content: center;
   align-items: center;
   gap: 18px;
+  padding: 60px 20px;
+  min-height: 100vh;
   overflow-x: hidden;
   @include for-large-screen {
     padding: 0;
